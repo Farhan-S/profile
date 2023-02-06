@@ -1,0 +1,271 @@
+body {
+    margin: 0 0;
+    font-family: 'Merriweather', serif;
+    color: #666666;
+}
+
+
+
+h1 {
+    color: #439A97;
+    font-size: 4.375rem;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 0;
+    display: inline-block;
+
+}
+
+h2 {
+    color: #11999E;
+}
+
+h3 {
+    color: #11999E;
+}
+
+a {
+    color: #2b817e;
+}
+
+.enthu {
+    font-size: 1rem;
+    color: dimgrey;
+
+    margin-top: 0;
+    display: inline;
+}
+
+
+
+
+.top-container {
+
+    background-color: #CBEDD5;
+    position: relative;
+    text-align: center;
+
+    margin: 0 0;
+}
+
+
+
+.middle-para
+{
+    width: 40%;
+    margin: auto;
+}
+
+.landscape {
+    height: 50%;
+    width: 100%;
+    justify-self: center;
+
+}
+
+.child {
+    position: absolute;
+    left: 42%;
+}
+
+.img-anik {
+    text-align: center;
+}
+
+.middle-container {
+    text-align: center;
+    margin-top: 6%;
+
+
+
+}
+.anik
+{
+    width: 20%;
+}
+
+.profile {
+    margin-bottom: 6%;
+    text-align: center;
+    
+}
+
+hr {
+    border-style: dotted;
+    border-color: #62B6B7;
+    border-width: thick;
+    border-bottom: none;
+    width: 5%;
+    margin-bottom: 6%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    
+    line-height: 2;
+    text-align: left;
+}
+
+
+
+.skills {
+    text-align: center;
+}
+
+.skill-img1 {
+    width: 30%;
+    float: right;
+    clear: left;
+    margin-left: 50;
+}
+
+.skill-img2 {
+    float: left;
+    clear: right;
+    width: 30%;
+    margin-right: 50px;
+}
+
+.contact-me {
+    line-height: 2;
+}
+.contact-me p{
+    width: 65%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+
+.btn {
+   
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #5cc8cc);
+    background-image: -moz-linear-gradient(top, #11999E, #5cc8cc);
+    background-image: -ms-linear-gradient(top, #11999E, #5cc8cc);
+    background-image: -o-linear-gradient(top, #11999E, #5cc8cc);
+    background-image: linear-gradient(to bottom, #11999E, #5cc8cc);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 9px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #5cc8cc;
+    background-image: -webkit-linear-gradient(top, #5cc8cc, #11999E);
+    background-image: -moz-linear-gradient(top, #5cc8cc, #11999E);
+    background-image: -ms-linear-gradient(top, #5cc8cc, #11999E);
+    background-image: -o-linear-gradient(top, #5cc8cc, #11999E);
+    background-image: linear-gradient(to bottom, #5cc8cc, #11999E);
+    text-decoration: none;
+}
+
+.bottom-container {
+    border-radius: 100% 100% 0 0;
+    line-height: 2;
+    margin-top: 100px;
+    background-color: #66BFBF;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.bottom-container p {
+
+    margin-bottom: 0;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.footer-link {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+@media (max-width: 1028px) and (min-width : 600px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .enthu {
+        font-size: .8rem;
+    }
+    p{
+        font-size: .9rem;
+    }
+
+    .skill-row{
+        width: 70%;
+    }
+
+    .btn{
+        font-size: 1.5rem;
+    }
+    .footer-link{
+        font-size: .9rem;
+    }
+
+    .middle-para
+{
+    width: 60%;
+    margin: auto;
+}
+
+   
+
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .enthu {
+        font-size: .5rem;
+    }
+    p{
+        font-size: .7rem;
+    }
+
+    h2{
+        font-size: .9rem;
+    }
+    h3{
+        font-size: .8rem;
+    }
+    .skill-row{
+        width: 80%;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    .footer-link{
+        font-size: .7rem;
+    }
+
+    .middle-para
+{
+    width: 80%;
+    margin: auto;
+}
+
+}
